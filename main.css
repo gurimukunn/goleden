@@ -3,14 +3,6 @@ a{
   text-decoration: none;
 }
 
-
-iframe {
-  display:none;
-}
-.unit:hover + iframe {
-  display:block;
-}
-
 body{
   background-color: #000000;
   font-size: 100%
@@ -26,4 +18,10 @@ body{
 #footer a:hover{
    color:#00fa9a;
    text-decoration:underline; 
+}
+iframe {
+  display:none;
+}
+.unit:hover iframe {
+  display:block;
 }
